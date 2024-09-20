@@ -5,8 +5,14 @@ public class EratosthenesPrimeSieve implements PrimeSieve{
 
     @Override
     public boolean isPrime(int p) {
+        for (Boolean b : ceilingList) {
+            if (ceilingList[p] == true)
+            {
+                return true;
+            }
+        }
+        return false;
 
-       return false;
     }
 
     @Override
