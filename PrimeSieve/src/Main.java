@@ -6,10 +6,8 @@ public class Main {
     public static void main(String[] args) {
 
         EratosthenesPrimeSieve eratosthenesPrimeSieve = new EratosthenesPrimeSieve();
+        eratosthenesPrimeSieve.printPrimes();
+        
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Geben sie eine Zahl ein?");
-        String line = scanner.nextLine();
-        eratosthenesPrimeSieve.isPrime()
     }
 }
